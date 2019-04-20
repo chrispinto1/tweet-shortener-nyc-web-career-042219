@@ -17,7 +17,8 @@ def word_substituter(string)
   puts words
   tweets = string.split
   tweets.each do |word|
-    if word = words.keys
+    if word == words.keys
+      
     end
   end
   puts tweets

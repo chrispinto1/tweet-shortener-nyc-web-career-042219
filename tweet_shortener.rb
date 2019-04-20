@@ -14,7 +14,7 @@ end
 
 def word_substituter(string)
   tweet = []
-  string.each do |x| 
+  string.collect do |x| 
     tweet << x
   end
   puts tweet

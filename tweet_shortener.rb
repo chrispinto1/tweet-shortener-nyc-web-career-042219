@@ -10,5 +10,5 @@ def dictionary
     "at" => "@",
     "and" => "&"
   }
-  word
+  puts word
 end

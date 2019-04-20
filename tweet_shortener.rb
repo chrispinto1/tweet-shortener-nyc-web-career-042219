@@ -15,5 +15,5 @@ end
 def word_substituter(string)
   tweet = []
   string.each {|x| tweet << x.to_a}
-  tweet
+  putstweet
 end

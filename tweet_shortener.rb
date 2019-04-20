@@ -15,7 +15,7 @@ end
 def word_substituter(string)
   words = dictionary
   puts words
-  tweets = string.split.size("")
+  tweets = string.split.size
   tweets.each do |word|
     if word = words.keys
     end

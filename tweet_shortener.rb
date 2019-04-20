@@ -13,6 +13,8 @@ def dictionary
 end
 
 def word_substituter(string)
-  tweet = string.split.to_a
+  tweet = []
+  tweets = string.split
+  tweet.push(tweets)
   puts tweet
 end

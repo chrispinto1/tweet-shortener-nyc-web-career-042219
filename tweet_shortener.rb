@@ -20,5 +20,5 @@ def word_substituter(string)
     if word = words.keys
     end
   end
-  puts tweet
+  puts tweets
 end

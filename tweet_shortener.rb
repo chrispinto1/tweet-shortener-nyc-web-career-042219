@@ -10,5 +10,8 @@ def dictionary
     "at" => "@",
     "and" => "&"
   }
-  puts word
 end
+
+def word_substituter(string)
+  tweet = []
+  string.each {|x| tweet << x.to_a

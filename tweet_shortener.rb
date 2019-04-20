@@ -13,9 +13,6 @@ def dictionary
 end
 
 def word_substituter(string)
-  tweet = []
-  string.collect do |x| 
-    tweet << x.to_a
-  end
+  tweet = string.split('')
   puts tweet
 end

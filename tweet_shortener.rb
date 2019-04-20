@@ -14,7 +14,7 @@ end
 
 def word_substituter(string)
   tweet = []
-  tweets = string.split("")
+  tweets = string.split
   tweet.push(tweets)
   puts tweet
 end
